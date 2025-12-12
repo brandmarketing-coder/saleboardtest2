@@ -5,6 +5,8 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
+        // 注意：前後都要有斜線，假設您的 repo 叫 my-ai-app，這裡就填 '/my-ai-app/'
+      base: "/saleboardtest2/",
       server: {
         port: 3000,
         host: '0.0.0.0',
