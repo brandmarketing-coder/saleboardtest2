@@ -1,0 +1,5 @@
+{
+  "name": "KPI銷售監測站",
+  "description": "A one-stop sales data monitoring station with data entry and dashboard visualization, featuring Google Sheet integration capabilities.",
+  "requestFramePermissions": []
+}
